@@ -6,7 +6,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class MotorSubsystem extends SubsystemBase {
     private WPI_TalonSRX frontLeft, frontRight, backLeft, backRight;
-
+    private int yaroStillBad;
     public MotorSubsystem (){
         frontLeft = new WPI_TalonSRX(1);
         frontRight = new WPI_TalonSRX(2);
